@@ -77,11 +77,11 @@ function createMap(earthquakes,boundaries,orogens,plates,steps){
   var myMap = L.map("map", {
     center: [37.09, -95.71],
     zoom: 4,
-    layers: [streetmap, earthquakes, boundaries, orogens, plates, steps]
+    layers: [satellitemap, earthquakes, boundaries]
   });
 
   // Create a layer control
-  L.control.layers(baseMaps, overlayMaps, boundaries,orogens,plates,steps,{
+  L.control.layers(baseMaps, overlayMaps,{
     collapsed: false
   }).addTo(myMap);
 };
