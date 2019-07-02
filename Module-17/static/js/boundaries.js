@@ -1,3 +1,7 @@
+// Unit 17 Assigment - Visualizing Data with Leaflet
+// @version 1.0
+// @author Martha Meses
+
 var boundariesjs = {
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
